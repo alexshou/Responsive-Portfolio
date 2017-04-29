@@ -1,68 +1,66 @@
-<!DOCTYPE html>
-<html lang = "en-us">
-	<head>
-		<meta charset="UTF-8"> 
-		<title> Contact </title>
-		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
-	<!--	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> -->
-	</head>
-	<body > 
-	<div class = "head1 clearfix">
-		<header>
-			Xingxian Shou 
-		</header>
-		
-		<nav>
-			<ul>
-				<li>
-					<a href="./index.html"> About </a>
-				</li>
-				<li>| </li>
-				<li>
-					<a href="./portfolio.html"> Portfolio </a>
-				</li>
-				<li>  | </li>
-				<li>
-					<a href="./contact.html"> Contact </a>
-				</li>
-			</ul>
-		</nav>
-	 </div>
+<!doctype html>
+<html lang="en-us">
 
-	
-		<div class = "leftside">	
-			<h1> About me </h1>
-				<div class = "personal-form" >
-					<form action="/action_page.php">
-					  <span> Name: </span>
-					  <input type="text" name="John Smith" value="John Smith" style="width: 542px;" >
-					  <span>Email:</span>
-					  <input type="text" name="example@gmail.com" value="example@gmail.com" style="width: 542px;">
-					  <span>Message:</span>
-					  <input type="text" name="" value="" style="width: 542px; height:180px" >
-					  <br><br>
-					  <input class="submit" type="submit" value="Submit">
-					</form> 
-	   			</div>
-   		</div>
-				<div class = "rightside"> 
-						<div class = "connect-head">  Connect with Me  </div>
-						<a href="https://github.com/alexshou"><img src=".\assets\images\github.jpeg" width=62px height=62px></a>
-						<a href="https://www.linkedin.com/in/xingxian-shou-b538aa1a/"><img src=".\assets\images\linkedin.jpeg" width=62px height=62px></a>
-						<a href="http://stackoverflow.com/users/7886852/alexshou"><img src=".\assets\images\stackoverflow.jpeg" width=55px height=55px></a>
-			    </div>
-			
-		
-	
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
+<body>
 
-		<footer>
-			 @Copyright 2017 Xingxian Shou 
-		</footer>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Xingxian Shou</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-	</body>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
- 
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/alexshou"><img src=".\assets\images\github.jpeg" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/xingxian-shou-b538aa1a/"><img src=".\assets\images\linkedin.jpeg" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackoverflow.com/users/7886852/alexshou"><img src=".\assets\images\stackoverflow.jpeg" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Xingxian Shou
+    </div>
+  </footer>
+</body>
 
 </html>

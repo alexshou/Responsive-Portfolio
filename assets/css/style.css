@@ -1,240 +1,239 @@
-body{
-	background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
-	}
-
-header{
-	float:left;
-	width: 300px;
-	height:80px;
-	text-align: center;
-	font-weight:bold;
-	background-color: #4aaaa5;
-	color:#ffffff;
-	font-size:35px;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	margin-left:300px;
-	padding-top:30px ;
-	}
-
-nav{
-	float:left;
-	color:#777777;
-	width: 270px;
-	font-size:20px;
-	margin-top:10px;
-	padding: 0px 30px 0px 350px;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/concrete_seamless.png");
 }
 
-.head1{
-	height:110px;
-	background:#ffffff;
-	margin-top:0px;
-	border-bottom:2px groove #cccccc;
+* {
+  box-sizing: border-box;
 }
 
-.portfolio{
+/* general */
 
-	padding: 20px 20px 20px 20px;
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
 }
 
-
-li{
-	display:inline;
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
 }
 
-a{
-	text-decoration: none;
-	color:#777777;
-	font-size:18px;
+p:last-child {
+  margin-bottom: 0;
 }
 
-h1{
-	
-	color:#4aaaa5;
-	background:#ffffff;
-	font-size:30px;
-	padding:30px 0px 30px 30px;
-	border-bottom: 3px solid #cccccc;
-	font-family:'Georgia', Times, Times New Roman, serif;
-
-}
-span{
-	padding:10px 0px 4px 0px;
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
 }
 
-.personal-photo{
-
-	float:left;
-	font-size:15px;
-	line-height:30px;
-	background: #ffffff;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	margin-top:-20px;
-	padding: 0px 25px 0px 30px;
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
 }
 
-.personal-photo img{
-	float:left;
-	padding-right: 25px;
+h2,
+h3 {
+  font-size: 22px;
 }
 
-.personal-form{
+/* header */
 
-	float:left;
-	font-size:20px;
-	line-height:30px;
-	background: #ffffff;
-	color:#777777;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	margin-top:-20px;
-	padding: 10px 25px 4px 30px;
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
 }
 
-.portfolio-photo{
-
-	float:left;
-	background: #ffffff;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	margin-top:-20px;
-	padding: 0px 0px 0px 0px;
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
 }
 
-.portfolio-photo img{
-	float:left;
-	width:260px;
+nav {
+  float: right;
+  margin-top: 25px;
 }
 
-.personal-form input{
-	color:#777777;
-	font-size:15px;
-	padding:3px 0px 3px 0px;
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
 }
 
-.leftside{
-	clear:both;
-	width:600px;
-	margin:10px 0px 30px 300px;
-	float:left;
-	border:1px  #666666;
+nav a:first-child {
+  border-left: 0 none;
 }
 
-.leftside-p{
-	clear:both;
-	width:600px;
-	height:850px;
-	margin:10px 0px 30px 300px;
-	float:left;
-	border:1px  #666666;
+/* footer */
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
 }
 
-.submit{
-	float:left;
-	width: 100px;
-	height:40px;
-	text-align: center;
-	background-color: #4aaaa5;
-	color:#ffffff;
-	font-size:25px;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	padding-top:20px 0px 20px 0px ;
-	margin-bottom: 30px;
+/* sidebar */
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-.rightside{
-	float:left;
-	background:#ffffff;
-	width: 200px;
-	font-size:25px;
-	margin:30px 0px 0px 50px;
-	padding: 20px 30px 20px 30px;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	border:1px #666666;
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
 }
 
-.connect-head{
-	text-align:center;
-	border-bottom: solid 2 px;
-	font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
-	font-weight:bold;
-	font-size: 23px;
-	color: #4aaaa5;
-	padding: 20px 0px 20px 0px;
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
 }
 
-.box1, .box2, .box3, .box4, .box5{
-	width:260px;
-	height:70px;
-	padding: 10px 0px 10px 0px;
-	text-align: center;
-	background-color: #4aaaa5;
-	color:#ffffff;
-	font-size:25px;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-	margin-left: 20px;
-
+.social:last-child {
+  margin-right: 0;
 }
 
-.box1{
-	clear:both;
-	position:relative;
-	top:-620px;
-	left:0px;
+/* main */
+
+#main-container {
+  padding-top: 130px;
 }
 
-.box2{
-	position:relative;  
-	top:-710px;
-	left: 300px;
-	
-}
-.box3{
-	position:relative;
-	top:-555px;
-	left: 0px;
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-.box4{
-	position:relative;
-	top:-645px;
-	left:300px;
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
-.box5{
-	position:relative;
-	top:-490px;
-	left:0px;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-
-p{
-	color: #777777;
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
 }
 
-footer{
-	clear:both;
-	border-top: 10px solid #4aaaa5;
-	width:100%;
-	color:#ffffff;
-	background: #666666;
-	text-align: center;
-	padding: 30px 0px 30px 0px;
-	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
-
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
 
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
 }
-.clearfix:after {
-    clear: both;
+
+#contact-form li {
+  margin-bottom: 10px;
 }
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.clearfix {
-    *zoom: 1;
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
