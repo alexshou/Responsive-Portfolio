@@ -237,3 +237,82 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 960px) {
+  .sidebar{
+    float:left;
+    margin-left:50px;
+  }
+  .container{
+    padding-left:100px;
+  }
+  .main-section{
+    max-width:420px;
+    width:100%;
+  }
+  .auth-image{
+    width:360px;
+    padding-bottom: 30px;
+  }
+  .nav a{
+    float:none;
+  }
+
+  .work{
+    width:360px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+   .sidebar, .container, .main-section{
+    max-width:720px;
+    width:100%;
+    margin-left:0px;
+
+  }
+   .sidebar{
+    float:left;
+    margin-left:0px;
+  }
+
+  .work{
+  position: relative;
+  float: left;
+  width: 240px;
+  margin: 20px 0 25px;
+  overflow: auto;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .sidebar{
+    float:left;
+    max-width:600px;
+  }
+  .master-head, .nav{
+    float:left;
+    margin-left:0px;
+  }
+  .main-section{
+    max-width:600px;
+    width:100%;
+  }
+  .nav{
+    float:left;
+    margin-left:0px;
+  }
+  .auth-image{
+    max-width:600px;
+    width:100%;
+  }
+  #logo{
+    width:600px;
+  }
+  .work{
+    max-width:500px;
+    width:100%;
+  }
+
+}
