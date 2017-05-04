@@ -244,7 +244,8 @@ input[type=submit] {
     margin-left:50px;
   }
   .container{
-    padding-left:100px;
+    max-width:94%;
+    margin:0px auto;
   }
   .main-section{
     max-width:420px;
@@ -266,9 +267,8 @@ input[type=submit] {
 
 @media only screen and (max-width: 768px) {
    .sidebar, .container, .main-section{
-    max-width:720px;
-    width:100%;
-    margin-left:0px;
+    max-width:94%;
+    margin:0px auto;
 
   }
    .sidebar{
@@ -291,7 +291,8 @@ input[type=submit] {
     float:left;
     max-width:600px;
   }
-  .master-head, .nav{
+  #master-head{
+    clear:both;
     float:left;
     margin-left:0px;
   }
